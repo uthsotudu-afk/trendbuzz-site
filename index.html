@@ -1,0 +1,78 @@
+<!-- Ready-made landing page for Netlify/GitHub hosting, mobile-friendly, Adsterra-ready -->
+<!doctype html>
+<html lang="bn">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>ট্রেন্ডবাজ - ভাইরাল খবর ও মোবাইল টিপস</title>
+  <meta name="description" content="দৈনিক ভাইরাল খবর, মোবাইল ট্রিকস, সহজ রেসিপি ও বিনোদন — সবকিছু এক জায়গায়।">
+  <style>
+    body{font-family:system-ui,-apple-system,Segoe UI,Roboto,'Noto Sans Bengali',sans-serif;margin:0;color:#111;background:#fafafa}
+    .container{max-width:960px;margin:0 auto;padding:14px}
+    header{display:flex;align-items:center;gap:10px}
+    .brand{font-weight:700;font-size:18px}
+    nav{margin-left:auto}
+    .hero{background:#fff;padding:12px;border-radius:10px;margin:10px 0}
+    .grid{display:grid;grid-template-columns:1fr;gap:10px}
+    @media(min-width:800px){.grid{grid-template-columns:repeat(3,1fr)}}
+    .card{background:#fff;padding:12px;border-radius:8px;box-shadow:0 1px 3px rgba(0,0,0,.04)}
+    img{max-width:100%;height:auto;border-radius:6px}
+    .title{font-size:16px;font-weight:600;margin:8px 0}
+    .meta{font-size:12px;color:#666}
+    footer{font-size:13px;color:#666;text-align:center;padding:20px}
+    .btn{display:inline-block;padding:8px 12px;border-radius:8px;background:#0b61ff;color:#fff;text-decoration:none}
+    .sticky-footer{position:fixed;left:0;right:0;bottom:0;background:#fff;padding:8px;border-top:1px solid #eee;display:flex;justify-content:center}
+    .ad-rect{display:flex;align-items:center;justify-content:center;background:#f3f4f6;border:1px dashed #ddd;padding:16px;border-radius:8px;color:#666}
+  </style>
+</head>
+<body>
+  <div class="container">
+    <header>
+      <div class="brand">ট্রেন্ডবাজ</div>
+      <nav aria-label="প্রধান নেভিগেশন">
+        <a href="#" class="btn">প্রকাশ!</a>
+      </nav>
+    </header>
+
+    <div class="ad-rect" id="ad-top">AD_PLACEHOLDER_BANNER_TOP</div>
+
+    <main>
+      <section class="hero card">
+        <h1>আজকের হটপিক: ভাইরাল কনটেন্ট ও দ্রুত রেসিপি</h1>
+        <p class="meta">দৈনিক আপডেট — নতুন পোস্ট প্রতি দিন</p>
+      </section>
+
+      <section class="grid" id="posts">
+        <article class="card">
+          <img loading="lazy" src="https://via.placeholder.com/600x340?text=Trending+Story" alt="ট্রেন্ডিং স্টোরি">
+          <div class="title">মোবাইল দিয়ে ৩ মিনিটে ফ্রি টাকা কিভাবে পাওয়া যায়</div>
+          <div class="meta">৬৫k ভিউ • ২ ঘণ্টা আগে</div>
+          <p>সংক্ষিপ্ত বিবরণ — মানুষের কৌতূহল বাড়ায়, শেয়ারযোগ্য কন্টেন্ট রাখো।</p>
+        </article>
+
+        <article class="card">
+          <img loading="lazy" src="https://via.placeholder.com/600x340?text=Easy+Recipe" alt="সহজ রেসিপি">
+          <div class="title">৫ মিনিটে সহজ ও সুস্বাদু রান্নার রেসিপি</div>
+          <div class="meta">৪৮k ভিউ • ১ দিন আগে</div>
+        </article>
+
+        <article class="card">
+          <img loading="lazy" src="https://via.placeholder.com/600x340?text=Tech+Tips" alt="টেক টিপস">
+          <div class="title">ফোন নেটওয়ার্ক দ্রুত করার ৭ টি ট্রিক</div>
+          <div class="meta">৩২k ভিউ • ৬ ঘণ্টা আগে</div>
+        </article>
+      </section>
+
+      <div style="margin:12px 0" class="ad-rect" id="ad-incontent">AD_PLACEHOLDER_INCONTENT</div>
+
+    </main>
+
+    <footer>
+      <p>© 2025 ট্রেন্ডবাজ — দ্রুত আপডেট, শেয়ার করো।</p>
+      <p><a href="#">গোপনীয়তা নীতি</a> • <a href="#">যোগাযোগ</a></p>
+    </footer>
+
+    <div class="sticky-footer" id="ad-sticky">AD_PLACEHOLDER_STICKY</div>
+  </div>
+</body>
+</html
